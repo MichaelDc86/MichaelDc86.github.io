@@ -1,0 +1,169 @@
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    align-items: center;
+    font-family: 'Neucha', cursive;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    color: dimgray;
+    font-stretch: extra-expanded;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.20), 20px 17px 10px rgba(0,0,0,0.25);
+    align-items: center;
+    font-family: Times New Roman;
+    font-size: 30px;
+    border: 1px solid dimgray;
+    color:aliceblue;
+}
+.leftBlock{
+    min-height: 1400px;
+    width: 460px;
+    background-color: #808080;
+}
+.img-thumbnail{
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin-bottom: 30px;
+}
+
+.RightBlock{
+    min-height: 1400px;
+    width: 680px;
+    background-color: #DFDFDD;
+    text-align: center;
+    align-content: center;
+}
+.name{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.20);
+    margin-bottom: 15px;
+}
+.developer{
+    color: dimgray;
+    margin-top: 30px;
+    height: 45px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.20);
+    align-items:center;
+}
+.aboutMe{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+}
+.textZagol{
+    padding-bottom: 10px;
+    padding-top: 20px;
+/*    border-bottom: 1px solid white;*/
+    font-size: 30px;
+    width: 250px;
+    margin-left: 80px;  
+}
+.shkala{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.textRight{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 36px;
+    color: #402d2d;
+}
+.hardSkill{
+    font-size: 21px;
+    margin-top: 18px;
+    color: dimgray;
+}
+.django{
+    width: 32px;
+}
+.django_rest{
+    width: 32px;
+}
+.textRightSH{
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: dimgray;
+}
+.textRightSh{
+    padding-bottom: 0px;
+    font-size: 20px;
+    color: dimgray;
+}
+.softHard{
+    margin: 0 auto;
+    width: 570px;
+}
+.textContact{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.textContactM{
+     font-size: 20px;
+}
+
+.progress{
+    overflow: hidden;
+    height: 3px;
+    width: 40%;
+    margin-bottom: 5px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.scale-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 33px;
+}
+.works{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-around;
+}
+
+.projects{
+    display: flex;
+    width: 240px;
+    height: 215px;
+    align-items: center;
+    background-color: #c3d2d2;
+    border-color: black;
+    border: 0px solid black;
+    border-radius: 19%;
+    margin-bottom: 25px;
+}
+
+.portpholio{
+    text-decoration: none;
+    color: #7581a2;
+    font-family: Times New Roman;
+    font-size: 21px;
+    font-style: normal;
+    width: 240px;
+}
+
+.portpholio:hover{
+    text-decoration: none;
+    color:#eadfdf;
+}
